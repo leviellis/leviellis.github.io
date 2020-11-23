@@ -16,7 +16,9 @@ var b = 255;
 
 function setup() 
 {
-  createCanvas(500, 500);
+    let cnv = createCanvas(500, 500); 
+    cnv.parent('Show-sketch');
+    
   background(100);
   
   startX = width/2;

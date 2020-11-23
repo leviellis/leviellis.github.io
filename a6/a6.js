@@ -16,7 +16,9 @@ function preload()
 
 function setup()
 {
-    createCanvas(1200, 600);
+    let cnv = createCanvas(1200, 600);
+    
+    cnv.parent('Show-sketch');
     colorMode(HSB);
     
     for(var i = 0; i < colorTable.getRowCount(); i++)

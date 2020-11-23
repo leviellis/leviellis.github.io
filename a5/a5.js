@@ -11,7 +11,8 @@ let snow = 0;
 
 function setup()
 {
-    createCanvas(800, 600);
+    let cnv = createCanvas(800, 600);
+    cnv.parent('Show-sketch');
     
     for(var i = 0; i < 75; i++)
     {
