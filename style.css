@@ -23,10 +23,13 @@ p{
     font-family: sans-serif;
 }
 
+#sketch-holder{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
 body{
-    /*background-image: url("background.png");
-    background-size: 100% 100%;
-    background-repeat: repeat-y;*/
     
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(199,227,232,1) 60%, rgba(196,196,255,1) 100%);
@@ -49,13 +52,6 @@ body{
   content: "";
   clear: both;
   display: table;
-}
-
-
-img{
-    /*display: block;
-    margin-left: auto;
-    margin-right: auto;*/
 }
 
 div{
