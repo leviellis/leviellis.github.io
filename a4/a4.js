@@ -16,8 +16,9 @@ function preload()
 
 function setup()
 {
-    createCanvas(400, 400);
+    let cnv = createCanvas(400, 400);
     background(255);
+    cnv.parent('Show-sketch');
     
     //load image pixels
     img1.loadPixels();

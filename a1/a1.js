@@ -33,8 +33,10 @@ var addD = -1;
 
 function setup()
 {
-    createCanvas(400, 400);
+    let cnv = createCanvas(400, 400);
     background(200);
+    
+    cnv.parent('Show-sketch');
 }
 
 function draw()

@@ -27,7 +27,9 @@ var over = false;
 
 function setup() 
 {
-  createCanvas(800, 800);
+  let cnv = createCanvas(800, 800);
+    
+    cnv.parent('Show-sketch');
 }
 
 function draw() 
@@ -76,6 +78,8 @@ function draw()
         rectX = rectX + 1 * speed;
     }
 }
+
+
 
 /*
 function keyPressed()

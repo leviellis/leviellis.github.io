@@ -118,7 +118,8 @@ function preload()
 
 function setup()
 {   
-    createCanvas(1000, 750);
+    let cnv = createCanvas(1000, 750);
+    cnv.parent('Show-sketch');
     
     //sets frame rate
     
