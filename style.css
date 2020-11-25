@@ -3,20 +3,24 @@ h1{
     font-size: 36px;
     margin-top: 3%;
     margin-bottom: 0%;
-    margin-left: 0%;
+    margin-left: 18%;
     font-family: 'Nunito Sans', sans-serif;
     text-shadow: -2px 3px 3px #adadad;
-    text-align: center;
 }
 
 h2{
     color: black;
     font-size: 18px;
     margin-top: 0%;
-    margin-left: 0%;
+    margin-left: 18%;
     font-family: 'Nunito Sans', sans-serif;
     text-shadow: -2px 3px 3px #adadad;
-    text-align: center;
+}
+
+#sketch-holder{
+    position: absolute;
+    z-index: -1;
+    width: 96%;
 }
 
 p{
@@ -25,11 +29,7 @@ p{
     font-family: sans-serif;
 }
 
-body{
-    /*background-image: url("background.png");
-    background-size: 100% 100%;
-    background-repeat: repeat-y;*/
-    
+body{ 
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(199,227,232,1) 60%, rgba(196,196,255,1) 100%);
 }
@@ -51,13 +51,6 @@ body{
   content: "";
   clear: both;
   display: table;
-}
-
-
-img{
-    /*display: block;
-    margin-left: auto;
-    margin-right: auto;*/
 }
 
 div{
