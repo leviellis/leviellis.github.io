@@ -17,10 +17,16 @@ h2{
     text-shadow: -2px 3px 3px #adadad;
 }
 
+
 #sketch-holder{
     position: absolute;
     z-index: -1;
     width: 96%;
+}
+
+canvas{
+  display: block;
+  margin: 0 auto;
 }
 
 p{
@@ -29,18 +35,7 @@ p{
     font-family: sans-serif;
 }
 
-<<<<<<< HEAD
-#sketch-holder{
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-}
-
 body{
-    
-=======
-body{ 
->>>>>>> pr/1
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(199,227,232,1) 60%, rgba(196,196,255,1) 100%);
 }
