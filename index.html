@@ -1,62 +1,153 @@
 <!DOCTYPE html>
 
-<html>
-    <head>
-    
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&display=swap" rel="stylesheet">
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
-        
-        <title>Levi Ellis | Portfolio</title>
-        
-        <script language="javascript" type="text/javascript" src="p5.js"></script>
-        
-    </head>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="images/favicon.png">>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levi Ellis | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
 
-    <body>
-    
-        <div id="sketch-holder">
-            <script src="websiteHome.js"></script>
+  <body>
+    <main>
+      <header>
+        <div class="topnav">
+          <a class="title active" href="#portfolio">L E V I &nbsp; E L L I S</a>
+          <a class="page" href="about/index.html">ABOUT</a>
+          <a class="page" href="LeviEllisCV.pdf" target="_blank">RESUME</a>
         </div>
-        
-        <h1>levi ellis</h1>
-        <h2>project portfolio</h2>
-        
-    </body>
-    
-    <div class="grid">
-        <div class="row">
-            <a href="csma214/index.html" style="text-decoration: none;"><img src="photos/csma214.png" alt="a7" class="column">
-            </a>
-            
-            <a href="csma212/index.html" style="text-decoration: none;"><img src="photos/csma212.png" alt="a8" class="column"></a>
-            
-            <a href="csma203/index.html" style="text-decoration: none;"><img src="photos/csma203.png" alt="a2" class="column"></a>
+        <div class="menu">
+          <button class="dropdown">
+            <img src="images/nav.png" alt="image">
+            <div class="dropdownMenu">
+            <a class="selected" href="#portfolio">PORTFOLIO</a>
+            <a href="LeviEllisCV.pdf" target="_blank">RESUME</a>
+            <a href="about/index.html">ABOUT</a>
+          </button>
         </div>
-        
-        <div class="row">
-            <a href="gdes107/index.html" style="text-decoration: none;"><img src="photos/gdes107.png" alt="a3" class="column"></a>
-            
-            <a href="csma113/index.html" style="text-decoration: none;"><img src="photos/csma113.png" alt="a2" class="column"></a>
-            
-            <a href="csma112/index.html" style="text-decoration: none;"><img src="photos/csma112.jpg" alt="a1" class="column">
-            </a>
-        </div>
-        
-        <div class="row">
-            <a href="csma111/index.html" style="text-decoration: none;"><img src="photos/csma111.jpg" alt="a3" class="column"></a>
-            
-            <a href="csma101/index.html" style="text-decoration: none;"><img src="photos/csma101.png" alt="a2" class="column"></a>
-            
-            <a href="resume/index.html" style="text-decoration: none;"><img src="photos/resume.png" alt="a1" class="column">
-            </a>
-        </div>
-    </div>
+      </header>
 
-    <footer>
-        <a href="https://github.com/leviellis/leviellis.github.io/tree/master/repository" style="text-decoration: none;"><h3 style="padding-top: 30px;">view code repository</h3></a>    
-    </footer>
-    
+      <div class="container">
+        <a href="project/index.html" class="item item001">
+          <img src="images/blinkbot.png" alt="image">
+          <div class="middle">
+            BLINKBOT
+          </div>
+        </a>
+        <a href="project/index.html" class="item item002">
+          <img src="images/dive.png" alt="image">
+          <div class="middle">
+            DIVE
+          </div>
+        </a>
+        <a href="project/index.html" class="item item003">
+          <img src="images/championsTale.png" alt="image">
+          <div class="middle">
+            A<br>CHAMPION'S<br>TALE
+          </div>
+        </a>
+        <a href="project/index.html" class="item item004">
+          <img src="images/slimeWisp.png" alt="image">
+          <div class="middle">
+            SLIME<br>O' WISP
+          </div>
+        </a>
+        <a href="project/index.html" class="item item005">
+          <img src="images/atomicFusion.png" alt="image">
+          <div class="middle">
+            ATOMIC<br>FUSION
+          </div>
+        </a>
+        <a href="project/index.html" class="item item006">
+          <img src="images/belleUnderworld.png" alt="image">
+          <div class="middle">
+            BELLE OF THE<br>UNDERWORLD
+          </div>
+        </a>
+        <a href="project/index.html" class="item item007">
+          <img src="images/eyedolContact.png" alt="image">
+          <div class="middle">
+            EYEDOL<br>CONTACT
+          </div>
+        </a>
+        <a href="project/index.html" class="item item008">
+          <img src="images/clap.png" alt="image">
+          <div class="middle">
+            CLAP
+          </div>
+        </a>
+        <a href="project/index.html" class="item item009">
+          <img src="images/cyberCross.png" alt="image">
+          <div class="middle">
+            CYBER<br>CROSS
+          </div>
+        </a>
+        <a href="project/index.html" class="item item010">
+          <img src="images/seeingGhosts.png" alt="image">
+          <div class="middle">
+            SEEING<br>GHOSTS
+          </div>
+        </a>
+        <a href="project/index.html" class="item item011">
+          <img src="images/haiku.png" alt="image">
+          <div class="middle">
+            HAIKU
+          </div>
+        </a>
+        <a href="project/index.html" class="item item012">
+          <img src="images/filtered.png" alt="image">
+          <div class="middle">
+            FILTERED
+          </div>
+        </a>
+        <a href="project/index.html" class="item item013">
+          <img src="images/fightFate.png" alt="image">
+          <div class="middle">
+            CAN'T<br>FIGHT FATE
+          </div>
+        </a>
+        <a href="project/index.html" class="item item014">
+          <img src="images/retrograde.png" alt="image">
+          <div class="middle">
+            RETROGRADE
+          </div>
+        </a>
+        <a href="project/index.html" class="item item015">
+          <img src="images/justCrime.png" alt="image">
+          <div class="middle">
+            JUST<br>CRIME
+          </div>
+        </a>
+        <a href="project/index.html" class="item item016">
+          <img src="images/caminandes.png" alt="image">
+          <div class="middle">
+            CAMINANDES
+          </div>
+        </a>
+        <a href="project/index.html" class="item item017">
+          <img src="images/spaceEpic.png" alt="image">
+          <div class="middle">
+            SPACE<br>EPIC
+          </div>
+        </a>
+      </div>
+
+      <div class="footer">
+        <div class="audioPlayer">
+          <img class="button" id = "rewindAudio" src="images/buttons/rewind.png" alt="image">
+          <img class="button" id = "playAudio" src="images/buttons/play.png" alt="image">
+          <img class="button" id = "skipAudio" src="images/buttons/skip.png" alt="image">
+          <a class="trackInfo" id = "trackTitle" href="project/index.html" style="text-decoration: none;"></a>
+          <a href="project/index.html">
+            <img class="button" id = "thumbnail" src="images/thumbnails/01.png" alt="image">
+          </a>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src = "musicPlayer.js"></script>
 </html>
