@@ -4,9 +4,9 @@ var i = 0;
 var playing = false;
 
 //track, title, and thumbnail playlist arrays
-const playlist = new Array('music/01eyedolContact.mp3', 'music/02detective.mp3', 'music/03fightFate.mp3', 'music/04blinkbot.wav', 'music/05championTale.wav', 'music/06emanuel.mp3',  'music/07cyberCross.mp3',  'music/08atomicFusion.mp3',  'music/09belleUnderworld.wav', 'music/10blinkbot.wav', 'music/11slime.mp3', 'music/12retrograde.mp3', 'music/13filtered.wav', 'music/14clap.wav', 'music/15blinkbot.wav');
-const titles = new Array("Eyedol Contact", "*To Be Announced*", "Can't Fight Fate", "Blinkbot", "A Champion's Tale", "*To Be Announced*", "Cyber Cross", "Atomic Fusion", "Belle of the Underworld", "Blinkbot", "Slime O' Wisp", "Retrograde", "Filtered", "Clap", "Blinkbot", "break test");
-const thumbnails = new Array("images/thumbnails/01.png", "images/thumbnails/02.png", "images/thumbnails/03.png", "images/thumbnails/04.png", "images/thumbnails/05.png", "images/thumbnails/06.png", "images/thumbnails/07.png", "images/thumbnails/08.png", "images/thumbnails/09.png", "images/thumbnails/10.png", "images/thumbnails/11.png", "images/thumbnails/12.png", "images/thumbnails/13.png", "images/thumbnails/14.png", "images/thumbnails/15.png", "break test");
+const playlist = new Array('music/01eyedolContact.mp3', 'music/06emanuel.mp3');
+const titles = new Array("Eyedol Contact", "*To Be Announced*");
+const thumbnails = new Array("images/thumbnails/01.png", "images/thumbnails/06.png", "break test");
 //play button, track title, and thumbnail references
 var x = document.getElementById("playAudio");
 var y = document.getElementById("trackTitle").innerHTML = titles[i];
