@@ -62,14 +62,6 @@ var yellowX = [];
 
 let noteY = [];
 
-//for note light up
-
-var bFill = [];
-var rFill = [];
-var yFill = [];
-
-//for volume
-
 let volume = 0.005;
 var slider;
 
@@ -118,8 +110,7 @@ function preload()
 
 function setup()
 {   
-    let cnv = createCanvas(1000, 750);
-    cnv.parent('Show-sketch');
+    createCanvas(1000, 750);
     
     //sets frame rate
     
@@ -260,9 +251,6 @@ function drawNotes()
         {
             if(blueX[i] == noteSelect[k] && noteY[i] <= 570 && noteY[i] >= 530)
             {
-                bFill[stringLast] = 0;
-                bFill[k] = 1;
-                
                 if(!stringNote[k].isPlaying())
                 {
                     if(stringNote[stringLast].isPlaying())
@@ -286,9 +274,6 @@ function drawNotes()
         {
             if(redX[i] == noteSelect[k] && noteY[i] <= 570 && noteY[i] >= 530)
             {
-                rFill[pianoLast] = 0;
-                rFill[k] = 1;
-                
                 if(!pianoNote[k].isPlaying())
                 {
                     if(pianoNote[pianoLast].isPlaying())
@@ -312,9 +297,6 @@ function drawNotes()
         {
             if(yellowX[i] == noteSelect[k] && noteY[i] <= 570 && noteY[i] >= 530)
             {
-                yFill[violinLast] = 0;
-                yFill[k] = 1;
-                
                 if(!violinNote[k].isPlaying())
                 {
                     if(violinNote[violinLast].isPlaying())
@@ -388,26 +370,7 @@ function drawUI()
     
     for(var i = 0; i < 21; i++)
     {
-        if(bFill[i] == 1)
-        {
-            fill(0, 0, 255);
-        }
-        
-        else if(rFill[i] == 1)
-        {
-            fill(255, 0, 0);
-        }
-        
-        else if(yFill[i] == 1)
-        {
-            fill(255, 255, 0);
-        }
-        
-        else
-        {
-            fill(255, 255, 255);
-        }
-        
+        fill(255);
         stroke(0);
         rect(j, 570, 40, 180, 6);
         

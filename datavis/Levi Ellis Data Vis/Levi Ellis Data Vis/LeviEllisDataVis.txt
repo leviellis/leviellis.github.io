@@ -1,0 +1,28 @@
+Class - CSMA 101 F1 
+Title - Introduction to Programming
+Semester - Fall 2020
+Instructor - Echo Theohar
+Student - Levi Ellis
+Contact - levi.ellis@woodbury.edu
+
+Instructions: Place the "dataProjectFolder" in the "Brackets" folder, and place the file titled "201022dataProject" in the "Sketch" folder.
+
+For my project, I attempted to take a different 
+approach at data visualization by integrating 
+an auditory representation of my data set.
+
+I choose to work with Google Trends data 
+concerning the popularity of search terms 
+relating to the BLM movement in the week 
+leading up to the election.
+
+Each search term is represented by a different
+instrument - piano, cello, or violin - visualized 
+in the form of a red, blue, or yellow note 
+respectively.
+
+As time progresses, the notes in the piano roll
+scroll down. The higher notes represent the times
+the search term was more popular while times where
+the search term was less popular are represented
+by a lower note.
