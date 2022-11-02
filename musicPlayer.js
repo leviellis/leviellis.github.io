@@ -5,8 +5,8 @@ var playing = false;
 
 //track, title, and thumbnail playlist arrays
 const playlist = new Array('music/01eyedolContact.mp3', 'music/06emanuel.mp3', 'music/16remember.wav', 'music/17scary.wav', 'music/18scary.wav');
-const titles = new Array("Eyedol Contact", "*To Be Announced*", "Title Screen", "Come Lay Down with Me", "Eliza's Theme");
-const thumbnails = new Array("images/thumbnails/01.png", "images/thumbnails/06.png", "images/thumbnails/02.png", "images/thumbnails/17.png", "images/thumbnails/17.png", "break test");
+const titles = new Array("Eyedol Contact", "Oh Come Emanuel"", "Thesis Title Screen", "Come Lay Down with Me", "Eliza's Theme");
+const thumbnails = new Array("images/thumbnails/01.png", "images/thumbnails/06.png", "images/thumbnails/06.png", "images/thumbnails/17.png", "images/thumbnails/17.png", "break test");
 //play button, track title, and thumbnail references
 var x = document.getElementById("playAudio");
 var y = document.getElementById("trackTitle").innerHTML = titles[i];
