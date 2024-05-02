@@ -1,4 +1,8 @@
-// slider for temporary "AI"
+// checkbox toggle to enable forced opponent throws for testing
+let toggle = document.getElementById("dev-toggle")
+let overrideAI = false
+
+// slider for selecting opponent throws
 let slider = document.getElementById("range")
 let sliderSeed = 1
 
@@ -8,14 +12,13 @@ let opponent = document.getElementById("opponent")
 
 // loss,win,draw outcome indicator, default color lightslategray
 const colorBG = document.getElementById("content")
+
 // div containing hoverable rock, paper, and scissors cards
 const hand = document.getElementById("hand")
 
-// rock card nested within "hand"
+// rock, paper, and scissors cards nested within "hand"
 const rock = document.getElementById("rock")
-// paper card nested within "hand"
 const paper = document.getElementById("paper")
-// scissors card nested within "hand"
 const scissors = document.getElementById("scissors")
 
 // array for removing/adding "hoverable" style for cards in loop
@@ -23,6 +26,7 @@ const options = [rock, paper, scissors]
 
 // SHOOT! button, used for primary logic .onclick function
 const shoot = document.getElementById("shoot")
+
 // determines if game is in playable or over state
 let playable = true
 
@@ -37,12 +41,16 @@ const results = ["LOSS", "WIN!", "DRAW"]
 // click detector
 addEventListener("click", (event) => {})
 
+// detects change to checkbox toggle, adjusts AI output
+toggle.onchange = function(event){
+    overrideAI = toggle.value
+  }
+
 // detects change to temporary slider, adjusts AI output
 slider.onchange = function(event){
     var output = document.getElementById("outputVar")
     output.innerHTML = slider.value
     sliderSeed = slider.value
-    console.log("slider adjusted")
   }
 
 // stores click on rock card in active, swaps selected image
@@ -124,6 +132,9 @@ shoot.onclick = () => {
 
 // outputs int 0-2, will later contain logic
 summonAI = function(r) {
+    if (!overrideAI) {
+        r = Math.floor(Math.random() * 3)
+    }
     return AI = r
 }
 
