@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock, paper, scissors!</title>
+        <link rel="icon" type="image/png" href="../images/favicon.png">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="content">
+                <div>
+                    <form id="temp-slider">
+                        <label>&nbsp;&nbsp;AI seed</label>
+                        <input type="range" min="0" max="2" value="1" class="slider" id="range">
+                        Value: <span id="outputVar">1</span>
+                      </form>
+                    <div class="choices" style="width: 267px;">
+                        <img id="opponent" src="images/choose.jpg">
+                    </div>
+                    <div class="choices" style="width: 267px;">
+                        <img id="choice" src="images/choose.jpg">
+                    </div>
+                    <div id="hand" style="display: flex; align-self: baseline;">
+                        <img class="button hoverable" id="rock" src="images/f0.jpg">
+                        <img class="button hoverable" id="paper" src="images/f1.jpg">
+                        <img class="button hoverable" id="scissors" src="images/f2.jpg">
+                    </div>
+                    <button id="shoot" style="height: 69px; width: 267px;">SHOOT!</button>
+                </div>
+            </div>
+            <div id="result-printer"></div>
+        </div> 
+    </body>
+    <script src="game.js"></script>
+</html>

@@ -1,0 +1,47 @@
+.button {
+    display: inline-block;
+    background-image: "images/choose.jpg";
+}
+
+.hoverable:hover {
+    opacity: 0.6;
+  }
+
+.choices {
+    width: 267px;
+    height: 267px;
+    overflow: hidden;
+}
+
+.choices img {
+    width: 345px;
+    height: 495px;
+    margin: -96px 0 0 -39px;
+}
+
+#wrapper {
+    width: 100%;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    background-color: lightslategray;
+    border: 5px solid slategray;
+    border-style: ridge;
+}
+
+#temp-slider {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: 5px solid slategray;
+    border-style: ridge;
+}
+
+#result-printer {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
