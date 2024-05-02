@@ -107,6 +107,9 @@ shoot.onclick = () => {
             options[i].classList.remove("hoverable")
         }
 
+        // resets player selection
+        active = -1
+
         // swaps SHOOT! text on this button to RESET
         shoot.textContent="RESET"
 
