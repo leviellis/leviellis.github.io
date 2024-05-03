@@ -43,7 +43,7 @@ addEventListener("click", (event) => {})
 
 // detects change to checkbox toggle, adjusts AI output
 toggle.onchange = function(event){
-    overrideAI = toggle.value
+    overrideAI = !overrideAI
   }
 
 // detects change to temporary slider, adjusts AI output
